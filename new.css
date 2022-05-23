@@ -455,6 +455,10 @@ input {
     .main-content h3{
         font-size: 1.4em;
     }
+    .content{
+        flex-direction: column;
+        align-items: center; 
+     }
 }
 
 
@@ -462,4 +466,11 @@ input {
     body{
         font-size: 10px;
     }
+    header{
+        padding: 12px 20px;
+        }
+        .content{
+            flex-direction: column;
+            align-items: center; 
+         }
 }
