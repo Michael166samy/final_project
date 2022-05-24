@@ -341,11 +341,12 @@ input {
     text-align: center;
 }
 
+
 .info h3{
     color: #3a6cf4;
     font-size: 1.2em;
     font-weight: 700;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .footer{
@@ -400,7 +401,7 @@ input {
     margin-left: 300px;
     width: 50%;
     height: 100%;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     background: rgb(199, 161, 161);
 }
@@ -408,7 +409,7 @@ input {
     font-size: 19px;
     font-weight: 100px;
     align-items: center;
-    display: flex;
+    display: inline-block;
 }
 
 
@@ -463,20 +464,22 @@ input {
     .content{
         flex-direction: column;
         align-items: center; 
+        display: block;
      }
      .cont{
         flex-direction: column;
         align-items: center;
+        display: block;
     }
-    
+    .address{
+        display: block;
+    }
 }
 
 @media (max-width:4500px) {
 
     .cont{
-        flex-direction: column;
-        align-items: center;
-    }
+display:block ;    }
     
 }
 @media (max-width:300px) {
@@ -489,10 +492,31 @@ input {
         .content{
             flex-direction: column;
             align-items: center; 
+            display: block
          }
 
          .cont{
             flex-direction: column;
             align-items: center;
+            display: block;
         }
+
+        .address{
+            display: block;
+        }
+}
+
+@media (min-width:300px) {
+
+.Cont{
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.address{
+    margin-left: 0px;
+    display: block;
+    width: 100%;
+}
+
 }
