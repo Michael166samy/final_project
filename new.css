@@ -416,6 +416,7 @@ input {
 @media (max-width:1023px){
     header{
     padding: 12px 20px;
+    width: 100%;
     }
 
     .navigation{
@@ -454,6 +455,11 @@ input {
         font-size: 12px;
     }
 
+    header{
+        padding: 12px 20px;
+        width: 100%;
+        }
+
     .main-content h2{
         font-size: 0.8em;
     }
@@ -488,6 +494,7 @@ display:block ;    }
     }
     header{
         padding: 12px 20px;
+        width: 100%;
         }
         .content{
             flex-direction: column;
@@ -504,10 +511,17 @@ display:block ;    }
         .address{
             display: block;
         }
+        .about{
+            display: block;
+            width: 100%;
+        }
 }
 
 @media (min-width:300px) {
-
+    header{
+        padding: 12px 20px;
+        width: 100%;
+        }
 .Cont{
     flex-wrap: wrap;
     align-items: center;
@@ -518,5 +532,8 @@ display:block ;    }
     display: block;
     width: 100%;
 }
-
+.about{
+    display: block;
+    width: 100%;
+}
 }
