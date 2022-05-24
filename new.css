@@ -515,7 +515,7 @@ display:block ;    }
             display: block;
         }
         .about{
-            display: block;
+          
             width: 100%;
         }
 }
@@ -543,7 +543,7 @@ display:block ;    }
     width: 100%;
 }
 .about{
-    display: block;
+    
     width: 100%;
 }
 }
