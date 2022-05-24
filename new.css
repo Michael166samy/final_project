@@ -382,7 +382,7 @@ input {
     box-shadow: 0 5px  25px rgba(1, 1, 1, 50%);
     overflow: hidden;
     border-radius: 10px;
-   
+ 
     transition: 0.7s ease;
     display: inline-block;
 }
@@ -489,6 +489,9 @@ display:block ;    }
     
 }
 @media (max-width:300px) {
+    .main{
+        width: 100%;
+    }
     body{
         font-size: 10px;
     }
@@ -517,7 +520,10 @@ display:block ;    }
         }
 }
 
-@media (min-width:300px) {
+@media (max-width:200px) {
+    .main{
+        width: 100%;
+    }
     header{
         padding: 12px 20px;
         width: 100%;
@@ -527,6 +533,10 @@ display:block ;    }
     align-items: center;
 }
 
+.footer{
+    width: 100%;
+
+}
 .address{
     margin-left: 0px;
     display: block;
